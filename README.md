@@ -32,7 +32,7 @@ pip3 install aiohttp==3.6.2
 ```
 1. Run main.py.
 2. Enter the amount of views you would like to be added.
-3. Paste the video's ID and hit enter — to find the ID, you have to reverse Triller's mobile API and monitor the like, report or comment request on the specific video (there are of course more endpoints that reveal the video's ID, but these are some of them). First you have to bypass SSL pinning though, because they do not trust all SSL certificates.
+3. Paste the video's ID and hit enter — to find the ID, you have to reverse Triller's mobile API and monitor the like, report or comment request for the specific video (there are of course more endpoints that reveal the video's ID, but these are some of the most precise ones). First you have to bypass SSL pinning though, because they do not trust all SSL certificates.
 
 ## Legal Notice
 This is illegal if you use it without the consent of the creators — in this case, the Triller team. I am not accountable for any of your actions; this was merely a speedrun to demonstrate how view bots work. Please do not misuse this tool.
