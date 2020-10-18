@@ -59,7 +59,7 @@ class ViewBot:
 
             time_elapsed = strftime('%H:%M:%S', gmtime(elapsed))
             os.system(
-                f'title [Triller View bot] - Sent: {self.sent} ('
+                f'title [Triller view bot] - Sent: {self.sent} ('
                 f'{round(((self.sent / views_amount) * 100), 3)}%) ^| Retries: {self.retries} ^| Ti'
                 f'me Elapsed: {time_elapsed} ^| Time Remaining: {time_remaining}'
             )
@@ -67,7 +67,7 @@ class ViewBot:
 
         print('\n[!] All views sent.')
         os.system(
-            f'title [Triller View bot] - Sent: {self.sent} ('
+            f'title [Triller view bot] - Sent: {self.sent} ('
             f'{round(((self.sent / views_amount) * 100), 3)}%) ^| Retries: {self.retries} ^| Time E'
             f'lapsed: {time_elapsed} ^| Time Remaining: 00:00:00 && pause >NUL'
         )
@@ -92,7 +92,7 @@ class ViewBot:
 
 
 if __name__ == '__main__':
-    os.system('cls && title [Triller View bot]')
+    os.system('cls && title [Triller view bot]')
     try:
         views_amount = int(input('[>] Amount of views to send: '))
     except ValueError:
