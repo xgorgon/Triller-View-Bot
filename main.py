@@ -52,9 +52,7 @@ class ViewBot:
 
             # (Elapsed Time / Sent) * Remaining
             time_remaining = strftime(
-                '%H:%M:%S', gmtime(
-                    elapsed / self.sent * (views_amount - self.sent)
-                )
+                '%H:%M:%S', gmtime(elapsed / self.sent * (views_amount - self.sent))
             )
 
             time_elapsed = strftime('%H:%M:%S', gmtime(elapsed))
