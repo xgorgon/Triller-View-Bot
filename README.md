@@ -16,7 +16,7 @@ I developed a multi-threadaed version before this one, but figured it had to be 
 - Time elapsed (hh:mm:ss): 00:00:22
 - CPU usage: 9%
 
-As we can see above, the asynchronous version is way more efficient and reasonable to what we are trying to accomplish. Python does not have the best support when it comes to multi-threading anyway.
+As we can see above, the asynchronous version is way more efficient and reasonable for what we are trying to accomplish. Python does not have the best support when it comes to multi-threading anyway.
 
 ## Preview
 ![](https://i.imgur.com/PnfvxCA.gif)<br>
