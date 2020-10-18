@@ -1,2 +1,2 @@
-# Triller-view-bot
+# Triller-View-Bot
 Asynchronous view bot for Triller.
